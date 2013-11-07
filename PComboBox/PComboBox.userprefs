@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PComboBox/ComboBoxHelper.cs">
+    <Files>
+      <File FileName="../../GitLuis/ad/PTreeView/PTreeView/TreeViewHelper.cs" Line="4" Column="19" />
+      <File FileName="../../GitLuis/ad/PTreeView/PTreeView/TreeViewHelper.cs" Line="17" Column="38" />
+      <File FileName="PComboBox/Main.cs" Line="1" Column="1" />
+      <File FileName="PComboBox/MainWindow.cs" Line="25" Column="3" />
+      <File FileName="PComboBox/ComboBoxHelper.cs" Line="60" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="PComboBox" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="UserInterface" expanded="True" />
+            <Node name="ComboBoxHelper.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
