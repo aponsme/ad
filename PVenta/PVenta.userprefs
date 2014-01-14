@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PVenta/WindowAdd.cs">
+    <Files>
+      <File FileName="PVenta/MainWindow.cs" Line="13" Column="20" />
+      <File FileName="PVenta/ArticuloListView.cs" Line="51" Column="4" />
+      <File FileName="PVenta/CategoriaListView.cs" Line="3" Column="19" />
+      <File FileName="PVenta/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="PVenta/WindowAdd.cs" Line="27" Column="1" />
+      <File FileName="PVenta/WindowRemove.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="PVenta" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
