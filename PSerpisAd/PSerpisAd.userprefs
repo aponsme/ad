@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PSerpisAd/TreeViewHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../GitLuis/ad/PSerpisAd/PSerpisAd/ModelHelper.cs">
     <Files>
-      <File FileName="PSerpisAd/TreeViewHelper.cs" Line="27" Column="4" />
+      <File FileName="../../../GitLuis/ad/PSerpisAd/PSerpisAd/ModelHelper.cs" Line="44" Column="54" />
+      <File FileName="../../../GitLuis/ad/PSerpisAd/PSerpisAd/ModelHelper.cs" Line="41" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
