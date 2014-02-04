@@ -58,13 +58,14 @@
     </Reference>
     <Reference Include="Mono.Posix" />
     <Reference Include="PSerpisAd">
-      <HintPath>..\..\..\GitLuis\ad\PSerpisAd\PSerpisAd\bin\Debug\PSerpisAd.dll</HintPath>
+      <HintPath>..\..\..\GitLuis\cosas de luis\PSerpisAd\PSerpisAd\bin\Debug\PSerpisAd.dll</HintPath>
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="MySql.Data, Version=6.4.3.0, Culture=neutral, PublicKeyToken=20449f9ba87f7ae2">
       <Private>False</Private>
       <Package>mysql-connector-net</Package>
     </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
