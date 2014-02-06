@@ -24,6 +24,12 @@ namespace Serpis.Ad
 			return string.Format ("select {0} from {1} where {2}=",
 			                      string.Join(", ", fieldNames), tableName, keyName);
 		}
+		
+		
+		
+		
+		
+		
 		private static string formatParameter(string field)
 		{
 			return string.Format ("{0}=@{0}", field);	
@@ -37,15 +43,15 @@ namespace Serpis.Ad
 			foreach (PropertyInfo propertyInfo in type.GetProperties ()) 
 			{
 				if (propertyInfo.IsDefined (typeof(KeyAttribute), true))
-					keyParameter = propertyInfo.Name.ToLower ();
+					keyParameter = formatParameter(propertyInfo.Name.ToLower ());
 				
 				else if (propertyInfo.IsDefined (typeof(FieldAttribute), true))
-					fieldParameters.Add (propertyInfo.Name.ToLower());
+					fieldParameters.Add (formatParameter(propertyInfo.Name.ToLower()));
 			}
 			
 			string tableName = type.Name.ToLower();
 			
-			return string.Format ("update {1} set {0} where {2}=",
+			return string.Format ("update {1} set {0} where {2}",
 			                      string.Join(", ", fieldParameters), tableName, keyParameter);
 		}
 		
@@ -56,13 +62,21 @@ namespace Serpis.Ad
 			foreach (PropertyInfo propertyInfo in type.GetProperties ()) 
 			{
 				if (propertyInfo.IsDefined (typeof(KeyAttribute), true) || propertyInfo.IsDefined (typeof(FieldAttribute), true))
-					allParameters.Add (propertyInfo.Name.ToLower());
+					allParameters.Add (formatParameter(propertyInfo.Name.ToLower()));
 			}
 			
 			string tableName = type.Name.ToLower();
 			
 			return string.Format ("insert into {1} set {0}",string.Join(", ", allParameters), tableName);
 		}
+		
+		
+		
+		
+		
+		
+		
+		
 		public static object Load(Type type, string id) 
 		{
 			IDbCommand selectDbCommand = App.Instance.DbConnection.CreateCommand ();

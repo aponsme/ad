@@ -3,14 +3,16 @@ using NUnit.Framework;
 
 namespace Serpis.Ad
 {
-	internal class ModelHelperFoo {
+	internal class ModelHelperFoo 
+	{
 		[Key]
 		public int Id {get;set;}
 		[Field]
 		public string Nombre {get;set;}
 	}
 	
-	internal class ModelHelperBar {
+	internal class ModelHelperBar 
+	{
 		[Key]
 		public int Id {get;set;}
 		[Field]
@@ -26,14 +28,46 @@ namespace Serpis.Ad
 		public void GetSelect ()
 		{
 			string selectText;
-			string expected ;
+			string expected;
 			
 			selectText = ModelHelper.GetSelect (typeof(ModelHelperFoo));
-			expected = "select nombre from ModelHelperFoo where id=";
+			expected = "select nombre from modelhelperfoo where id=";
 			Assert.AreEqual (expected, selectText);
 			
 			selectText = ModelHelper.GetSelect (typeof(ModelHelperBar));
-			expected = "select nombre from ModelHelperBar where id=";
+			expected = "select nombre, precio from modelhelperbar where id=";
+			Assert.AreEqual (expected, selectText);
+		}
+		
+		
+		
+		[Test()]
+		public void GetUpdate ()
+		{
+			string selectText;
+			string expected;
+			
+			selectText = ModelHelper.GetUpdate (typeof(ModelHelperFoo));
+			expected = "update modelhelperfoo set nombre=@nombre where id=@id";
+			Assert.AreEqual (expected, selectText);
+			
+			selectText = ModelHelper.GetUpdate (typeof(ModelHelperBar));
+			expected = "update modelhelperbar set nombre=@nombre, precio=@precio where id=@id";
+			Assert.AreEqual (expected, selectText);
+		}
+		
+		[Test()]
+		public void GetInsert ()
+		{
+			string selectText;
+			string expected;
+			
+			selectText = ModelHelper.GetInsert (typeof(ModelHelperFoo));
+			expected = "insert into modelhelperfoo set id=@id, nombre=@nombre";
+			Assert.AreEqual (expected, selectText);
+			
+			selectText = ModelHelper.GetInsert (typeof(ModelHelperBar));
+			expected = "insert into modelhelperbar set id=@id, nombre=@nombre, precio=@precio";
 			Assert.AreEqual (expected, selectText);
 		}
 	}
