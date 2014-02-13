@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tests>
+    <TestRecord Name="Serpis">
+      <Tests>
+        <TestRecord Name="Ad">
+          <Tests>
+            <TestRecord Name="ModelHelperTest">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T10:45:57</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>4</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,23 ms</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="GetSelect">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T10:45:51</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T10:45:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="GetInsert">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T10:45:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="GetUpdate">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T10:45:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="ModelInfoTest">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:27:58</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>7</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:38:57</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>7</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,57 ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:46:07</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>8</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:47:44</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>8</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:48:02</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>8</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:48:25</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>8</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:49:25</TestDate>
+                  <Status>Success Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>6</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:50:46</TestDate>
+                  <Status>Success Failure</Status>
+                  <TotalFailures>2</TotalFailures>
+                  <TotalSuccess>6</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Child test failed</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T11:56:35</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>9</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,75 ms</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="FieldNames">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:27:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:24 
+  at Serpis.Ad.ModelInfoTest.FieldNames () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:28</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.FieldNames () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.FieldNames () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.FieldNames () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.FieldNames () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:79 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="FieldpropertyInfos">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:27:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:24 
+  at Serpis.Ad.ModelInfoTest.FieldpropertyInfos () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:31</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.FieldpropertyInfos () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.FieldpropertyInfos () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.FieldpropertyInfos () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.FieldpropertyInfos () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:68 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="getSelect">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:27:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:24 
+  at Serpis.Ad.ModelInfoTest.getSelect () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:88 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:34</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:40:15</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getSelect () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:88 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getSelect () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:88 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getSelect () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:88 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.getSelect () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:88 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="KeyName">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:27:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:24 
+  at Serpis.Ad.ModelInfoTest.KeyName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:62 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:38</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.KeyName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:62 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.KeyName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:62 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.KeyName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:62 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.KeyName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:62 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="KeyPropertyInfo">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:27:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:24 
+  at Serpis.Ad.ModelInfoTest.KeyPropertyInfo () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:41</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.KeyPropertyInfo () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.KeyPropertyInfo () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.KeyPropertyInfo () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.KeyPropertyInfo () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:55 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="TableName">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:27:58</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:24 
+  at Serpis.Ad.ModelInfoTest.TableName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:34:27</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00074] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:25 
+  at Serpis.Ad.ModelInfoTest.TableName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:37:47</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:38:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.TableName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.TableName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.TableName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.TableName () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:49 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="getUpdate">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:45:34</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:96 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:46:07</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0010e] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:96 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:40</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:96 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:47:44</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00119] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:96 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:02</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.ArgumentNullException : Argument cannot be null.
+Parameter name: values</Message>
+                      <StackTrace>  at System.String.Join (System.String separator, IEnumerable`1 values) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x00103] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:39 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:96 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:48:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>System.NullReferenceException : Object reference not set to an instance of an object</Message>
+                      <StackTrace>  at Serpis.Ad.ModelInfo..ctor (System.Type type) [0x0009b] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAd/ModelInfo.cs:30 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x00000] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:96 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:49:25</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected string length 51 but was 41. Strings differ at index 0.
+  Expected: "update modelinfofoo set nombre=@nombre where id=@id"
+  But was:  "select nombre from modelinfofoo where id="
+  -----------^
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x0001d] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:99 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:50:46</TestDate>
+                      <Status>Failure</Status>
+                      <TotalFailures>1</TotalFailures>
+                      <TotalSuccess>0</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>  Expected string length 51 but was 41. Strings differ at index 0.
+  Expected: "update modelinfofoo set nombre=@nombre where id=@id"
+  But was:  "select nombre from modelinfofoo where id="
+  -----------^
+</Message>
+                      <StackTrace>  at NUnit.Framework.Assert.That (System.Object actual, IResolveConstraint expression, System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.AreEqual (System.Object expected, System.Object actual) [0x00000] in &lt;filename unknown&gt;:0 
+  at Serpis.Ad.ModelInfoTest.getUpdate () [0x0001d] in /home/mati/Documentos/AD/PSerpisAd/PSerpisAdTests/ModelInfoTest.cs:99 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:52:48</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+                <TestRecord Name="getInsert">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:25</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                  </Results>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
