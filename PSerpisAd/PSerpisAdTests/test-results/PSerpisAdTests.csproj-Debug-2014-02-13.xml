@@ -18,6 +18,17 @@
 
 Tiempo de ejecución: 0,23 ms</Message>
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T12:33:48</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>4</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,23 ms</Message>
+                </UnitTestResult>
               </Results>
               <Tests>
                 <TestRecord Name="GetSelect">
@@ -48,6 +59,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:48</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                 </TestRecord>
                 <TestRecord Name="GetInsert">
@@ -65,12 +89,38 @@ Tiempo de ejecución: 0,01 ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:48</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,01 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                 </TestRecord>
                 <TestRecord Name="GetUpdate">
                   <Results>
                     <UnitTestResult>
                       <TestDate>2014-02-13T10:45:57</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:48</TestDate>
                       <Status>Success</Status>
                       <TotalFailures>0</TotalFailures>
                       <TotalSuccess>1</TotalSuccess>
@@ -172,6 +222,17 @@ Tiempo de ejecución: 0,57 ms</Message>
                   <Message>Prueba satisfactoria
 
 Tiempo de ejecución: 0,75 ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2014-02-13T12:33:58</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>9</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,81 ms</Message>
                 </UnitTestResult>
               </Results>
               <Tests>
@@ -323,6 +384,19 @@ Tiempo de ejecución: 0,01 ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,02 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                 </TestRecord>
                 <TestRecord Name="FieldpropertyInfos">
@@ -462,6 +536,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                     </UnitTestResult>
                     <UnitTestResult>
                       <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
                       <Status>Success</Status>
                       <TotalFailures>0</TotalFailures>
                       <TotalSuccess>1</TotalSuccess>
@@ -636,6 +723,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                 </TestRecord>
                 <TestRecord Name="KeyName">
@@ -786,6 +886,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                 </TestRecord>
                 <TestRecord Name="KeyPropertyInfo">
@@ -925,6 +1038,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                     </UnitTestResult>
                     <UnitTestResult>
                       <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
                       <Status>Success</Status>
                       <TotalFailures>0</TotalFailures>
                       <TotalSuccess>1</TotalSuccess>
@@ -1090,6 +1216,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                     </UnitTestResult>
                     <UnitTestResult>
                       <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
                       <Status>Success</Status>
                       <TotalFailures>0</TotalFailures>
                       <TotalSuccess>1</TotalSuccess>
@@ -1271,6 +1410,19 @@ Tiempo de ejecución: 0,00 ms</Message>
                       <ConsoleOutput />
                       <ConsoleError />
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
                   </Results>
                 </TestRecord>
                 <TestRecord Name="getInsert">
@@ -1290,6 +1442,19 @@ Tiempo de ejecución: 0,01 ms</Message>
                     </UnitTestResult>
                     <UnitTestResult>
                       <TestDate>2014-02-13T11:56:35</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>1</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Prueba satisfactoria
+
+Tiempo de ejecución: 0,00 ms</Message>
+                      <ConsoleOutput />
+                      <ConsoleError />
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2014-02-13T12:33:58</TestDate>
                       <Status>Success</Status>
                       <TotalFailures>0</TotalFailures>
                       <TotalSuccess>1</TotalSuccess>

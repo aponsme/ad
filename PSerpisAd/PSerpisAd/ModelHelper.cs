@@ -7,8 +7,8 @@ namespace Serpis.Ad
 {
 	public class ModelHelper
 	{
-//MODIFICAR ModelHelper USANDO EL ModelInfoStore		
-//		ModelInfoStore modelInfoStore = new ModelInfoStore ();//Creamos un objeto de ModelInfoStore para poder acceder al diccionario
+//MODIFICAR ModelHelper USANDO EL ModelInfoStore
+//
 //
 //
 //
@@ -69,103 +69,49 @@ namespace Serpis.Ad
 //				insertDbCommand.ExecuteNonQuery();
 //			}
 //		}
-
-		public static string GetSelect(Type type) 
-		{
-			string keyName = null;//inicializamos el key a nulo
-			List<string> fieldNames = new List<string>();//creamos una lista 
-			foreach (PropertyInfo propertyInfo in type.GetProperties ())//
-			{
-				if (propertyInfo.IsDefined (typeof(KeyAttribute), true))
-					keyName = propertyInfo.Name.ToLower ();
-				else if (propertyInfo.IsDefined (typeof(FieldAttribute), true))
-					fieldNames.Add (propertyInfo.Name.ToLower());
-			}
-			
-			string tableName = type.Name.ToLower();
-			
-			return string.Format ("select {0} from {1} where {2}=",
-			                      string.Join(", ", fieldNames), tableName, keyName);
-		}
 		
 		
-		
-		private static string formatParameter(string field)
-		{
-			return string.Format ("{0}=@{0}", field);	
-		}
-		
-		public static string GetUpdate(Type type) 
-		{
-			string keyParameter = null;
-			List<string> fieldParameters = new List<string>();
-			
-			foreach (PropertyInfo propertyInfo in type.GetProperties ()) 
-			{
-				if (propertyInfo.IsDefined (typeof(KeyAttribute), true))
-					keyParameter = formatParameter(propertyInfo.Name.ToLower ());
-				
-				else if (propertyInfo.IsDefined (typeof(FieldAttribute), true))
-					fieldParameters.Add (formatParameter(propertyInfo.Name.ToLower()));
-			}
-			
-			string tableName = type.Name.ToLower();
-			
-			return string.Format ("update {1} set {0} where {2}",
-			                      string.Join(", ", fieldParameters), tableName, keyParameter);
-		}
-		
-		public static string GetInsert(Type type) 
-		{
-			List<string> allParameters = new List<string>();
-			
-			foreach (PropertyInfo propertyInfo in type.GetProperties ()) 
-			{
-				if (propertyInfo.IsDefined (typeof(KeyAttribute), true) || propertyInfo.IsDefined (typeof(FieldAttribute), true))
-					allParameters.Add (formatParameter(propertyInfo.Name.ToLower()));
-			}
-			
-			string tableName = type.Name.ToLower();
-			
-			return string.Format ("insert into {1} set {0}",string.Join(", ", allParameters), tableName);
-		}
-
 		public static object Load(Type type, string id) 
 		{
+			ModelInfo modelInfo=ModelInfoStore.Get (type);
 			IDbCommand selectDbCommand = App.Instance.DbConnection.CreateCommand ();
-			selectDbCommand.CommandText = GetSelect(type) + id;
+			selectDbCommand.CommandText = modelInfo.getSelect + id;
 			IDataReader dataReader = selectDbCommand.ExecuteReader();
 			dataReader.Read(); //lee el primero
-			object obj = Activator.CreateInstance(type);
 			
-			foreach (PropertyInfo propertyInfo in type.GetProperties ()) 
+			object obj = Activator.CreateInstance(type);
+			modelInfo.KeyPropertyInfo.SetValue(obj,id,null);
+			foreach(PropertyInfo propertyInfo in modelInfo.FieldPropertyInfos)
 			{
-				if (propertyInfo.IsDefined (typeof(KeyAttribute), true))
-				{	
-					object value=convert(id,propertyInfo.PropertyType);
-					propertyInfo.SetValue(obj, id, null); //TODO convert al tipo de destino
-				}	
-				else if (propertyInfo.IsDefined (typeof(FieldAttribute), true))
-				{	
-					propertyInfo.SetValue(obj, dataReader[propertyInfo.Name.ToLower()], null); //TODO convert al tipo de destino
-					object value=convert(dataReader[propertyInfo.Name.ToLower()],propertyInfo.PropertyType);
-				}
-				
-				
-			}
+				modelInfo.FieldPropertyInfos.SetValue(obj, dataReader[propertyInfo.Name.ToLower()], null);
+			}	
+			foreach (PropertyInfo propertyInfo in type.GetProperties ()) 
+//			{
+//				if (propertyInfo.IsDefined (typeof(KeyAttribute), true))
+//				{	
+//					object value=convert(id,propertyInfo.PropertyType);
+//					propertyInfo.SetValue(obj, id, null); //TODO convert al tipo de destino
+//				}	
+//				else if (propertyInfo.IsDefined (typeof(FieldAttribute), true))
+//				{	
+//					propertyInfo.SetValue(obj, dataReader[propertyInfo.Name.ToLower()], null); //TODO convert al tipo de destino
+//					object value=convert(dataReader[propertyInfo.Name.ToLower()],propertyInfo.PropertyType);
+//				}
+//			}
 			dataReader.Close ();
 			return obj;
 		}
+		
 		private static object convert(object value, Type type)
 		{
 			return Convert.ChangeType(value, type);
 		}
+		
 		public static void Save(object obj)
 		{
-           
-            IDbCommand updateDbCommand = App.Instance.DbConnection.CreateCommand();
+           	IDbCommand updateDbCommand = App.Instance.DbConnection.CreateCommand();
             Type type = obj.GetType();
-            updateDbCommand.CommandText = GetUpdate(type);
+            updateDbCommand.CommandText = modelInfo.getUpdate;
            
             foreach (PropertyInfo propertyInfo in type.GetProperties())
 			{
@@ -175,6 +121,7 @@ namespace Serpis.Ad
                     object value = propertyInfo.GetValue(obj, null);
                     DbCommandUtil.AddParameter(updateDbCommand, propertyInfo.Name.ToLower(), value);
                 }
+				
                 updateDbCommand.ExecuteNonQuery();
                
             }
@@ -196,9 +143,6 @@ namespace Serpis.Ad
 				insertDbCommand.ExecuteNonQuery();
 			}
 		}
-		
-		
-		
 	}
 }
 

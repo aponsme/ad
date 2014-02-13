@@ -8,7 +8,7 @@ namespace Serpis.Ad
 	{
 		public string TableName { get {return tableName;} }
 		private Type type;
-		public ModelInfo (Type type)
+		internal ModelInfo (Type type)
 			
 		{
 			this.type = type;
@@ -45,7 +45,6 @@ namespace Serpis.Ad
 		}
 
 		private string tableName;
-		private List<PropertyInfo> fieldPropertyInfos;
 		private List<string> fieldNames;
 		private List<string> fieldParameters;
 		private string keyParameter;
@@ -53,6 +52,7 @@ namespace Serpis.Ad
 		private PropertyInfo keyPropertyInfo;
 		public PropertyInfo KeyPropertyInfo { get { return keyPropertyInfo; } }
 		public string KeyName { get {return keyName;}}
+		private List<PropertyInfo> fieldPropertyInfos;
 		public PropertyInfo[] FieldPropertyInfos {get {return fieldPropertyInfos.ToArray();}}
 		public string[] FieldNames {get {return fieldNames.ToArray();}}
 		public string getSelect;

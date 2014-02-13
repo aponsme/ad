@@ -46,37 +46,37 @@ namespace Serpis.Ad
 		[Test ()]
 		public void TableName ()
 		{
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo));
+			ModelInfo modelInfo = ModelInfoStore.Get (typeof(ModelInfoFoo));
 			Assert.AreEqual ("modelinfofoo", modelInfo.TableName);
 		}
 
 		[Test ()]
 		public void KeyPropertyInfo(){
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo));
+			ModelInfo modelInfo = ModelInfoStore.Get (typeof(ModelInfoFoo));
 			Assert.IsNotNull (modelInfo.KeyPropertyInfo);
 			Assert.AreEqual ("Id", modelInfo.KeyPropertyInfo.Name);
 		}
 
 		[Test()]
 		public void KeyName(){
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo));
+			ModelInfo modelInfo = ModelInfoStore.Get (typeof(ModelInfoFoo));
 			Assert.AreEqual ("id", modelInfo.KeyName);
 		}
 
 		[Test()]
 		public void FieldpropertyInfos(){
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo)); 
+			ModelInfo modelInfo = ModelInfoStore.Get (typeof(ModelInfoFoo)); 
 			PropertyInfo[] fieldPropertyInfo = modelInfo.FieldPropertyInfos;
 			Assert.AreEqual (1, fieldPropertyInfo.Length);
 
-			modelInfo = new ModelInfo (typeof(ModelInfoBar));
+			modelInfo = ModelInfoStore.Get (typeof(ModelInfoBar));
 			PropertyInfo[] fieldPropertyInfo2 = modelInfo.FieldPropertyInfos;
 			Assert.AreEqual (2, fieldPropertyInfo2.Length);
 		}
 
 		[Test()]
 		public void FieldNames(){
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo)); 
+			ModelInfo modelInfo = ModelInfoStore.Get(typeof(ModelInfoFoo)); 
 			string[] fieldName = modelInfo.FieldNames;
 			Assert.Contains ("nombre", fieldName);
 			Assert.AreEqual (1, fieldName.Length);
@@ -85,7 +85,7 @@ namespace Serpis.Ad
 		[Test()]
 		public void getSelect(){
 			string expected;
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo)); 
+			ModelInfo modelInfo = ModelInfoStore.Get(typeof(ModelInfoFoo)); 
 			string getSelects = modelInfo.getSelect;
 			expected = "select nombre from modelinfofoo where id=";
 			Assert.AreEqual (expected, getSelects);
@@ -93,7 +93,7 @@ namespace Serpis.Ad
 		[Test()]
 		public void getUpdate(){
 			string expected;
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo)); 
+			ModelInfo modelInfo = ModelInfoStore.Get(typeof(ModelInfoFoo)); 
 			string getUpdates = modelInfo.getUpdate;
 			expected = "update modelinfofoo set nombre=@nombre where id=@id";
 			Assert.AreEqual (expected, getUpdates);
@@ -101,7 +101,7 @@ namespace Serpis.Ad
 		[Test()]
 		public void getInsert(){
 			string expected;
-			ModelInfo modelInfo = new ModelInfo (typeof(ModelInfoFoo)); 
+			ModelInfo modelInfo = ModelInfoStore.Get(typeof(ModelInfoFoo)); 
 			string getInserts = modelInfo.getInsert;
 			expected = "insert into modelinfofoo set id=@id, nombre=@nombre";
 			Assert.AreEqual (expected, getInserts);
